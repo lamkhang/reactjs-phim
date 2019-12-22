@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './assets/scss/index.scss'
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import { routesHome, routesAdmin } from "./routes";
+import HomeTemplate from './template/HomeTemplate';
+import AdminTemplate from "./template/AdminTemplate";
+import PageNotFound from "./pages/page-not-found";
 function App() {
+  const showHome = routes => {
+    if(routes.length > 0){
+      return routes.map((item, index) => {
+        return <HomeTemplate key={index} exact={item.exact} path={item.path} Component={item.component}/>
+      })
+    }
+  }
+  const showAdmin = routes => {
+    if(routes.length > 0) {
+      return routes.map((item, index) => {
+        return  <AdminTemplate key={index} exact={item.exact} path={item.path} Component={item.component} />
+      })
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        {showHome(routesHome)}
+        {showAdmin(routesAdmin)}
+        <Route exact path="*" component={PageNotFound} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
