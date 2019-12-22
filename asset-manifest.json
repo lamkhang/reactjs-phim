@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reactjs-phim/static/css/main.bb8fc77e.chunk.css",
+    "main.js": "/reactjs-phim/static/js/main.f5de42a3.chunk.js",
+    "main.js.map": "/reactjs-phim/static/js/main.f5de42a3.chunk.js.map",
+    "runtime-main.js": "/reactjs-phim/static/js/runtime-main.f1b82af0.js",
+    "runtime-main.js.map": "/reactjs-phim/static/js/runtime-main.f1b82af0.js.map",
+    "static/css/2.7b663e8a.chunk.css": "/reactjs-phim/static/css/2.7b663e8a.chunk.css",
+    "static/js/2.809ef8a3.chunk.js": "/reactjs-phim/static/js/2.809ef8a3.chunk.js",
+    "static/js/2.809ef8a3.chunk.js.map": "/reactjs-phim/static/js/2.809ef8a3.chunk.js.map",
+    "index.html": "/reactjs-phim/index.html",
+    "precache-manifest.b76e08e44be04b508587449d24f16ae8.js": "/reactjs-phim/precache-manifest.b76e08e44be04b508587449d24f16ae8.js",
+    "service-worker.js": "/reactjs-phim/service-worker.js",
+    "static/css/2.7b663e8a.chunk.css.map": "/reactjs-phim/static/css/2.7b663e8a.chunk.css.map",
+    "static/css/main.bb8fc77e.chunk.css.map": "/reactjs-phim/static/css/main.bb8fc77e.chunk.css.map",
+    "static/js/2.809ef8a3.chunk.js.LICENSE": "/reactjs-phim/static/js/2.809ef8a3.chunk.js.LICENSE",
+    "static/media/all.css": "/reactjs-phim/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/logo.png": "/reactjs-phim/static/media/logo.14fc99a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1b82af0.js",
+    "static/css/2.7b663e8a.chunk.css",
+    "static/js/2.809ef8a3.chunk.js",
+    "static/css/main.bb8fc77e.chunk.css",
+    "static/js/main.f5de42a3.chunk.js"
+  ]
+}
